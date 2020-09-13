@@ -1,0 +1,16 @@
+.pelota {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: red;
+	/* transition-property: width, height; */
+	/* transition-duration: 1s; */
+	/* transition-delay: 1s; */
+	/* transition-timing-function: ease; */
+	/* transition: width 1s 1s ease; */
+	transition: width 1s ease;
+}
+.pelota:hover {
+	width: 200px;
+	height: 200px;
+}
