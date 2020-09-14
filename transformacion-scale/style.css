@@ -1,0 +1,26 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	border: 1px solid black;
+}
+
+.container:hover .cuadrado {
+	transform: scale(2, 0.5);
+}
+
+.cuadrado {
+	width: 200px;
+	height: 200px;
+	background: blueviolet;
+	margin: 20px;
+	transition: 0.3s;
+}
